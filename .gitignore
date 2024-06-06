@@ -14,7 +14,7 @@ dist-ssr
 .env
 firebase.ts
 firebase.json
-firebaserc
+.firebase*
 
 # Editor directories and files
 .vscode/*
