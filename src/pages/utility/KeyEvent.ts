@@ -1,7 +1,8 @@
 import { DamageChecker, Enemy, Key } from "../game_components/Interface";
 
 
-export const dungeonSelecter = (props:{
+// キーボードでダンジョンを選択する
+export const DungeonSelectorByKey = (props:{
     e: KeyboardEvent,
     setCursor:React.Dispatch<React.SetStateAction<number>>,
     cursor: number,
@@ -28,6 +29,18 @@ export const dungeonSelecter = (props:{
             props.setPhase(() => !props.phase)
         }
     }
+}
+
+// clickでダンジョンを選択する
+export const DungeonSelectByClick = (props:{
+    number: number,
+    setCursor:React.Dispatch<React.SetStateAction<number>>,
+    cursor: number,
+    setPhase: React.Dispatch<React.SetStateAction<boolean>>,
+    phase: boolean
+}) => {
+    props.setCursor(() => props.number)
+    props.setPhase(() => !props.phase)
 }
 
 //phaseを０に変更
