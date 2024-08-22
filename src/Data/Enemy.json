@@ -1,12 +1,12 @@
 {
     "Enemy": [
-        {"EnemyId": 1, "name": "ブル", "src": "bull01.png", "exp": 50, "gold": 120,
+        {"EnemyId": 1, "name": "ブル", "src": "enemys/bull01.png", "exp": 50, "gold": 120,
             "status":{"hp": 100, "atk": 25, "def": 30, "spd": 30}
         },
-        {"EnemyId": 2, "name": "クマ", "src": "bear01.png", "exp": 70, "gold": 120,
+        {"EnemyId": 2, "name": "クマ", "src": "enemys/bear01.png", "exp": 70, "gold": 120,
             "status":{"hp": 130, "atk": 30, "def": 20, "spd": 20}
         },
-        {"EnemyId": 3, "name": "ムシ", "src": "bug01.png", "exp": 45, "gold": 120,
+        {"EnemyId": 3, "name": "ムシ", "src": "enemys/bug01.png", "exp": 45, "gold": 120,
             "status":{"hp": 70, "atk": 40, "def": 10, "spd": 50}
         }
     ]
