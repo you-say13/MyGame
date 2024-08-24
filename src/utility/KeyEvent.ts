@@ -7,9 +7,10 @@ export const handleKeyEvent = (props: {
 	e: KeyboardEvent,
 	setCursor: React.Dispatch<React.SetStateAction<number>>,
 	cursor: number,
-	setPhase: React.Dispatch<React.SetStateAction<boolean>>,
-	phase: boolean
+	setPhase: React.Dispatch<React.SetStateAction<number>>,
+	phase: number,
 	len: number
+	isBackButton?: boolean
 }) => {
 	const key = props.e.key
 	if (!props.e.repeat) {
@@ -28,24 +29,25 @@ export const handleKeyEvent = (props: {
 			}
 		}
 		if (key === "Enter") {
-			props.setPhase(() => !props.phase)
+			props.isBackButton ? props.setPhase(() => -1) : props.setPhase(() => 1)
 		}
 	}
 }
 
+
 // clickでダンジョンを選択する
-export const DungeonSelectByClick = (
-	{ number, setCursor, setPhase, phase }
+export const handleClickEvent = (
+	{ number, setCursor, setPhase, isBackButton }
 		:
 		{
 			number: number,
 			setCursor: React.Dispatch<React.SetStateAction<number>>,
-			setPhase: React.Dispatch<React.SetStateAction<boolean>>,
-			phase: boolean
+			setPhase: React.Dispatch<React.SetStateAction<number>>,
+			isBackButton?: boolean,
 		}
 ) => {
 	setCursor(() => number)
-	setPhase(() => !phase)
+	isBackButton ? setPhase(() => -1) : setPhase(() => 1)
 }
 
 //phaseを０に変更

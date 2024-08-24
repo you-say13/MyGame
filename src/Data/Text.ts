@@ -56,5 +56,9 @@ export const dungeonMenuText = [
   {
     title: "魔王の城",
     desc: "魔王が住む城。推奨レベル: 40~",
+  },
+  {
+    title: "戻る",
+    desc: "街に戻る",
   }
 ];
