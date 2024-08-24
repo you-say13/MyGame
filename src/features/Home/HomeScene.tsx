@@ -13,10 +13,10 @@ const HomeScene = () => {
   const navigator = useNavigate();
 
   const [cursor, setCursor] = useState(0)
-  const [phase, setPhase] = useState(false)
+  const [phase, setPhase] = useState(0)
 
   useEffect(() => {
-    if (phase) {
+    if (phase == 1) {
       switch (selectList[cursor]) {
         case "ダンジョン選択":
           navigator('/dungeon');
@@ -50,7 +50,7 @@ const HomeScene = () => {
             (e) => keyEvent(e, setCursor, cursor, setPhase, phase, selectList.length - 1)
           }
           mouseEnterEvent={
-            (number) => ClickEvent(number, setCursor, setPhase, phase)
+            (number) => ClickEvent(number, setCursor, setPhase)
           }
           cursor={cursor}
           setCursor={setCursor}

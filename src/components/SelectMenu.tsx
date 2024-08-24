@@ -8,7 +8,7 @@ const SelectMenu = ({
   cursor,
   setCursor,
 }:{
-  style: {
+  style?: {
     width?: string,
     height?: string,
     fontSize?: string,
@@ -29,8 +29,8 @@ const SelectMenu = ({
   }, [cursor])
 
   return (
-    <div className={`SelectMenu flex justify-center items-center ${style.width ?? 'w-full'} ${style.height ?? 'h-full'} ${style.isBlock ?? 'bg-gray-900'} text-white ${style.fontSize ?? 'text-2xl'} font-bold`}>
-      <div className={`flex-col items-center grid grid-row-${selectList.length} text-center ${style.isBlock ? `h-full w-full` : `w-1/3 h-2/3 max-h-2/3`} bg-black border border-white rounded-xl`}>
+    <div className={`SelectMenu flex justify-center items-center ${style?.width ?? 'w-full'} ${style?.height ?? 'h-full'} ${style?.isBlock ?? 'bg-gray-900'} text-white ${style?.fontSize ?? 'text-2xl'} font-bold`}>
+      <div className={`flex-col items-center grid grid-row-${selectList.length} text-center ${style?.isBlock ? `h-full w-full` : `w-1/3 h-2/3 max-h-2/3`} bg-black border border-white rounded-xl`}>
         {
           selectList.map((list, index) => {
             return (
