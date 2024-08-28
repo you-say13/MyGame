@@ -29,7 +29,7 @@ export const handleKeyEvent = (props: {
 			}
 		}
 		if (key === "Enter") {
-			props.isBackButton ? props.setPhase(() => -1) : props.setPhase(() => 1)
+			props.isBackButton && props.cursor === props.len ? props.setPhase(() => -1) : props.setPhase(() => 1)
 		}
 	}
 }
@@ -48,6 +48,22 @@ export const handleClickEvent = (
 ) => {
 	setCursor(() => number)
 	isBackButton ? setPhase(() => -1) : setPhase(() => 1)
+}
+
+//store用のクリックイベント
+export const shopClickEvent = (
+	{number, setCursor, setPhase, isBackButton, compareValue}:{
+		number: number,
+		setCursor: React.Dispatch<React.SetStateAction<number>>,
+		setPhase: React.Dispatch<React.SetStateAction<number>>,
+		isBackButton?: boolean,
+		compareValue: number
+	}
+) => {
+	setCursor(() => number);
+	if(isBackButton){
+		setPhase((prev) => prev + compareValue);
+	}
 }
 
 //phaseを０に変更

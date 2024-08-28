@@ -1,0 +1,474 @@
+{
+  "Weapons": [
+    {
+      "LongSword": [
+        {
+          "name": "初心者の剣",
+          "desc": "初心者向けの剣です。",
+          "price": 100,
+          "status": {
+            "attack": 10,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "普通の剣",
+          "desc": "普通の剣です。",
+          "price": 300,
+          "status": {
+            "attack": 20,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "レアな剣",
+          "desc": "レアな剣です。",
+          "price": 500,
+          "status": {
+            "attack": 30,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "エピックな剣",
+          "desc": "エピックな剣です。",
+          "price": 1000,
+          "status": {
+            "attack": 40,
+            "effect": "無し"
+          }
+        }
+      ],
+      "Dagger": [
+        {
+          "name": "初心者の短剣",
+          "desc": "初心者向けの短剣です。",
+          "price": 80,
+          "status": {
+            "attack": 5,
+            "speed": 2,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "普通の短剣",
+          "desc": "普通の短剣です。",
+          "price": 240,
+          "status": {
+            "attack": 12,
+            "speed": 4,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "レアな短剣",
+          "desc": "レアな短剣です。",
+          "price": 400,
+          "status": {
+            "attack": 18,
+            "speed": 6,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "エピックな短剣",
+          "desc": "エピックな短剣です。",
+          "price": 800,
+          "status": {
+            "attack": 24,
+            "speed": 8,
+            "effect": "無し"
+          }
+        }
+      ],
+      "Axe": [
+        {
+          "name": "初心者の斧",
+          "desc": "初心者向けの斧です。",
+          "price": 120,
+          "status": {
+            "attack": 15,
+            "speed": -2,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "普通の斧",
+          "desc": "普通の斧です。",
+          "price": 360,
+          "status": {
+            "attack": 25,
+            "speed": -4,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "レアな斧",
+          "desc": "レアな斧です。",
+          "price": 600,
+          "status": {
+            "attack": 35,
+            "speed": -6,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "エピックな斧",
+          "desc": "エピックな斧です。",
+          "price": 1200,
+          "status": {
+            "attack": 45,
+            "speed": -8,
+            "effect": "無し"
+          }
+        }
+      ]
+    }
+  ],
+  "Shields": [
+    {
+      "name": "初心者の盾",
+      "desc": "初心者向けの盾です。",
+      "price": 200,
+      "status": {
+        "defense": 10,
+        "effect": "無し"
+      }
+    },
+    {
+      "name": "普通の盾",
+      "desc": "普通の盾です。",
+      "price": 400,
+      "status": {
+        "defense": 20,
+        "effect": "無し"
+      }
+    },
+    {
+      "name": "レアな盾",
+      "desc": "レアな盾です。",
+      "price": 600,
+      "status": {
+        "defense": 30,
+        "effect": "無し"
+      }
+    },
+    {
+      "name": "エピックな盾",
+      "desc": "エピックな盾です。",
+      "price": 1100,
+      "status": {
+        "defense": 40,
+        "effect": "無し"
+      }
+    }
+  ],
+  "healths": [
+    {
+      "name": "下級ポーション",
+      "desc": "HPを50回復するポーションです。",
+      "price": 50,
+      "effect": {
+        "hp": 50
+      }
+    },
+    {
+      "name": "普通のポーション",
+      "desc": "HPを100回復するポーションです。",
+      "price": 200,
+      "effect": {
+        "hp": 100
+      }
+    },
+    {
+      "name": "レアなポーション",
+      "desc": "HPを150回復するポーションです。",
+      "price": 400,
+      "effect": {
+        "hp": 150
+      }
+    },
+    {
+      "name": "エピックなポーション",
+      "desc": "HPを200回復するポーションです。",
+      "price": 900,
+      "effect": {
+        "hp": 200
+      }
+    }
+  ],
+  "Armors": [
+    {
+      "Boots": [
+        {
+          "name": "初心者のブーツ",
+          "desc": "初心者向けのブーツです。",
+          "price": 150,
+          "status": {
+            "speed": 5,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "普通のブーツ",
+          "desc": "普通のブーツです。",
+          "price": 350,
+          "status": {
+            "speed": 10,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "レアなブーツ",
+          "desc": "レアなブーツです。",
+          "price": 550,
+          "status": {
+            "speed": 15,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "エピックなブーツ",
+          "desc": "エピックなブーツです。",
+          "price": 1050,
+          "status": {
+            "speed": 20,
+            "effect": "無し"
+          }
+        }
+      ],
+      "Helmet": [
+        {
+          "name": "初心者の兜",
+          "desc": "初心者向けの兜です。",
+          "price": 120,
+          "status": {
+            "defense": 5,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "普通の兜",
+          "desc": "普通の兜です。",
+          "price": 320,
+          "status": {
+            "defense": 10,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "レアな兜",
+          "desc": "レアな兜です。",
+          "price": 520,
+          "status": {
+            "defense": 15,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "エピックな兜",
+          "desc": "エピックな兜です。",
+          "price": 1020,
+          "status": {
+            "defense": 20,
+            "effect": "無し"
+          }
+        }
+      ],
+      "Gloves": [
+        {
+          "name": "初心者の手袋",
+          "desc": "初心者向けの手袋です。",
+          "price": 80,
+          "status": {
+            "attack": 5,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "普通の手袋",
+          "desc": "普通の手袋です。",
+          "price": 280,
+          "status": {
+            "attack": 10,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "レアな手袋",
+          "desc": "レアな手袋です。",
+          "price": 480,
+          "status": {
+            "attack": 15,
+            "effect": "無し"
+          }
+        },
+        {
+          "name": "エピックな手袋",
+          "desc": "エピックな手袋です。",
+          "price": 980,
+          "status": {
+            "attack": 20,
+            "effect": "無し"
+          }
+        }
+      ],
+      "Accessory": [
+        {
+          "Ring": [
+            {
+              "name": "初心者の指輪",
+              "desc": "初心者向けの指輪です。",
+              "price": 100,
+              "status": {
+                "hp": 20,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "普通の指輪",
+              "desc": "普通の指輪です。",
+              "price": 300,
+              "status": {
+                "hp": 40,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "レアな指輪",
+              "desc": "レアな指輪です。",
+              "price": 500,
+              "status": {
+                "hp": 60,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "エピックな指輪",
+              "desc": "エピックな指輪です。",
+              "price": 1000,
+              "status": {
+                "hp": 80,
+                "effect": "無し"
+              }
+            }
+          ],
+          "Necklace": [
+            {
+              "name": "初心者のネックレス",
+              "desc": "初心者向けのネックレスです。",
+              "price": 150,
+              "status": {
+                "mp": 10,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "普通のネックレス",
+              "desc": "普通のネックレスです。",
+              "price": 350,
+              "status": {
+                "mp": 20,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "レアなネックレス",
+              "desc": "レアなネックレスです。",
+              "price": 550,
+              "status": {
+                "mp": 30,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "エピックなネックレス",
+              "desc": "エピックなネックレスです。",
+              "price": 1050,
+              "status": {
+                "mp": 40,
+                "effect": "無し"
+              }
+            }
+          ],
+          "Earring": [
+            {
+              "name": "初心者のイヤリング",
+              "desc": "初心者向けのイヤリングです。",
+              "price": 80,
+              "status": {
+                "defense": 5,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "普通のイヤリング",
+              "desc": "普通のイヤリングです。",
+              "price": 280,
+              "status": {
+                "defense": 10,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "レアなイヤリング",
+              "desc": "レアなイヤリングです。",
+              "price": 480,
+              "status": {
+                "defense": 15,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "エピックなイヤリング",
+              "desc": "エピックなイヤリングです。",
+              "price": 980,
+              "status": {
+                "defense": 20,
+                "effect": "無し"
+              }
+            }
+          ],
+          "Bracelet": [
+            {
+              "name": "初心者のブレスレット",
+              "desc": "初心者向けのブレスレットです。",
+              "price": 120,
+              "status": {
+                "attack": 5,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "普通のブレスレット",
+              "desc": "普通のブレスレットです。",
+              "price": 320,
+              "status": {
+                "attack": 10,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "レアなブレスレット",
+              "desc": "レアなブレスレットです。",
+              "price": 520,
+              "status": {
+                "attack": 15,
+                "effect": "無し"
+              }
+            },
+            {
+              "name": "エピックなブレスレット",
+              "desc": "エピックなブレスレットです。",
+              "price": 1020,
+              "status": {
+                "attack": 20,
+                "effect": "無し"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
