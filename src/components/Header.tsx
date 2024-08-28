@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import User from '../Data/Player.json';
 import { Player } from '../types/Status';
 
@@ -7,9 +7,15 @@ const Header = () => {
 	const user: Player = User.Player;
 	const [date, setDate] = useState(new Date());
 
-	setInterval(() => {
-			setDate(() => new Date())
-		}, 1000)
+	useEffect(() => {
+		console.log('Header time set');
+		const timer = setInterval(() => {
+			setDate(new Date());
+		}, 1000);
+		return () => {
+			clearInterval(timer);
+		}
+	}, [])
 
 	return (
 		<div className={`bg-black flex w-full h-full`}>
