@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom"
-import GameMenu from "../../pages/GameMenu";
+import GameMenu from "../../components/GameMenu";
 import SelectMenu from "../../components/SelectMenu";
 import { homeMenuText } from "../../Data/Text";
 import { keyEvent, ClickEvent } from "../../utility/ClickAndKeyEvent";

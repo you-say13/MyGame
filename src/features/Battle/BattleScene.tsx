@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
-import GameMenu from "../../pages/GameMenu";
-import BattleMenu from "../../pages/BattleMenu";
-import GameScreen from "../../pages/GameScreen";
+import GameMenu from "../../components/GameMenu";
+import BattleMenu from "../../components/BattleMenu";
+import GameScreen from "../../components/GameScreen";
 import { BattleEndHandler, BattleHandler, DamageHandler, DungeonBackHandler, eventHandler, firstEnterHandler,  } from "../../utility/KeyEvent";
 import { setEnemy } from "../../utility/EnemyPop";
-import SelectEnemy from "../../pages/SelectEnemy";
+import SelectEnemy from "../../components/SelectEnemy";
 import Data from "../../Data/Enemy.json"
 import User from "../../Data/Player.json"
 import { damageCheckerProps, enemyChooseKeyProps } from "../../types/Props";
 import { Enemy, Player } from "../../types/Status";
-import UserStatus from "../../pages/UserStatus";
+import UserStatus from "../../components/UserStatus";
 
 const Game = () => {
     

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import SelectMenu from "../../components/SelectMenu";
-import GameMenu from "../../pages/GameMenu";
+import GameMenu from "../../components/GameMenu";
 import { shopMenuText } from "../../Data/Text";
 import { handleKeyEvent } from "../../utility/KeyEvent";
 import { useNavigate } from "react-router-dom";

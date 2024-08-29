@@ -19,7 +19,7 @@ const SettingScene = () => {
           </div>
           <h1 className="my-4 w-3/5">設定</h1>
         </div>
-        <div className="text-start w-full">
+        <div className="text-start w-full lg:max-w-[58vw] mx-auto">
           <h3 className="text-center w-full">音量マスタ</h3>
           <div className="w-full px-10 py-2 flex font-thin justify-center items-center">
             <label className="w-32">BGM</label>

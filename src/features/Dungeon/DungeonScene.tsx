@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import { dungeonMenuText } from "../../Data/Text"
 import { ClickEvent, keyEvent } from "../../utility/ClickAndKeyEvent"
-import GameMenu from "../../pages/GameMenu"
+import GameMenu from "../../components/GameMenu"
 
 const DungeonSelect = () => {
 
