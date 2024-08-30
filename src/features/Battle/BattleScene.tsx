@@ -146,11 +146,11 @@ const Game = () => {
             }
             {
                 phase === 3 &&
-                <GameMenu msg={`${user.name}の攻撃,${enemyData[cursor].name}に${user.status.atk}のダメージ！`} />
+                <GameMenu msg={`${user.name}の攻撃,${enemyData[cursor].name}に${user.status.Attack}のダメージ！`} />
             }
             {
                 phase === 4 && enemyData.length !== 0 &&
-                <GameMenu msg={`${user.status.atk}のダメージを与えて倒した！`} />
+                <GameMenu msg={`${user.status.Attack}のダメージを与えて倒した！`} />
             }
             {
                 enemyData.length === 0 &&

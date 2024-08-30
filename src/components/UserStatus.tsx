@@ -10,8 +10,8 @@ const UserStatus = (props:{
             <div className="border-b w-full">{props.user.name}</div>
             <div className="h-full">
                 <div className="w-full h-1/3 mt-[2%]">LV: {props.user.level}</div>
-                <div className="w-full h-1/3">HP: {props.user.status.hp}</div>
-                <div className="w-full h-1/3">MP: {props.user.status.mp}</div>
+                <div className="w-full h-1/3">HP: {props.user.status.HitPoints}</div>
+                <div className="w-full h-1/3">MP: {props.user.status.MagicPoints}</div>
             </div>
 
         </div>

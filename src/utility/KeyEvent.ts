@@ -153,17 +153,19 @@ export const DamageHandler = (props: damageCheckerProps) => {
 
 	for (let i = 0; i < props.enemy.length; i++) {
 
-		const flag: boolean = ((props.enemy[i].status.hp - props.user.status.atk) <= 0)
+		const flag: boolean = ((props.enemy[i].status.HitPoints - props.user.status.Attack) <= 0)
 		if (props.enemy[i] === props.enemy[props.cursor]) {
 			if (!flag) {
 				res.push({
 					EnemyId: props.enemy[i].EnemyId,
 					name: props.enemy[i].name,
 					status: {
-						hp: props.enemy[i].status.hp - props.user.status.atk,
-						atk: props.enemy[i].status.atk,
-						def: props.enemy[i].status.def,
-						spd: props.enemy[i].status.spd,
+						HitPoints: props.enemy[i].status.HitPoints - props.user.status.Attack,
+						Attack: props.enemy[i].status.Attack,
+						MagicAttack: props.enemy[i].status.MagicAttack,
+						Defense: props.enemy[i].status.Defense,
+						MagicDefense: props.enemy[1].status.MagicDefense,
+						Speed: props.enemy[i].status.Speed,
 					},
 					src: props.enemy[i].src
 				})

@@ -1,13 +1,13 @@
 {
     "Enemy": [
-        {"EnemyId": 1, "name": "ブル", "src": "enemys/bull01.png", "exp": 50, "gold": 120,
-            "status":{"hp": 100, "atk": 25, "def": 30, "spd": 30}
+        {"EnemyId": 1, "name": "ブル", "src": "enemies/bull01.png", "exp": 50, "gold": 120,
+            "status":{"HitPoints": 100, "Attack": 25, "MagicAttack":15, "Defense": 30, "MagicDefense":10, "Speed": 30}
         },
-        {"EnemyId": 2, "name": "クマ", "src": "enemys/bear01.png", "exp": 70, "gold": 120,
-            "status":{"hp": 130, "atk": 30, "def": 20, "spd": 20}
+        {"EnemyId": 2, "name": "クマ", "src": "enemies/bear01.png", "exp": 70, "gold": 120,
+            "status":{"HitPoints": 130, "Attack": 30, "MagicAttack":10, "Defense": 20, "MagicDefense":15, "Speed": 20}
         },
-        {"EnemyId": 3, "name": "ムシ", "src": "enemys/bug01.png", "exp": 45, "gold": 120,
-            "status":{"hp": 70, "atk": 40, "def": 10, "spd": 50}
+        {"EnemyId": 3, "name": "ムシ", "src": "enemies/bug01.png", "exp": 45, "gold": 120,
+            "status":{"HitPoints": 70, "Attack": 40, "MagicAttack":0, "Defense": 10, "MagicDefense":5, "Speed": 50}
         }
     ]
 }
