@@ -4,8 +4,8 @@ import GameMenu from "../../components/GameMenu";
 import { shopMenuText } from "../../Data/Text";
 import { handleKeyEvent } from "../../utility/KeyEvent";
 import { useNavigate } from "react-router-dom";
-import BuyMenu from "./BuyMenu";
-import SellMenu from "./SellMenu";
+import BuyMenu from "./components/BuyMenu";
+import SellMenu from "./components/SellMenu";
 
 const StoreScene = () => {
 

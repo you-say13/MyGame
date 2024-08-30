@@ -25,19 +25,19 @@ const Header = () => {
 						名前:{user.name}
 					</div>
 					<div className="text-white">
-						HP:{user.status.hp}
+						HP:{user.status.HitPoints}
 					</div>
 					<div className="text-white">
-						MP:{user.status.mp}
+						MP:{user.status.MagicPoints}
 					</div>
 					<div className="text-white">
 						Level:{user.level}
 					</div>
 					<div className="text-white">
-						ATK:{user.status.atk}
+						ATK:{user.status.Attack}
 					</div>
 					<div className="text-white">
-						DEF:{user.status.def}
+						DEF:{user.status.Defense}
 					</div>
 					<div></div>
 					<div className='text-white'>
